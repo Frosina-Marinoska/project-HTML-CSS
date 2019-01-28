@@ -1,0 +1,945 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+/*font to css*/
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Julius Sans One', sans-serif;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+body{
+	font-family: 'Amatic SC', cursive;
+}
+
+.main-container{
+	width: 100%;
+	margin: 0 auto;
+	height: 1800px;
+	position: absolute;
+
+}
+
+
+.left{
+	width: 15%;
+	/*height: 660px;*/
+	height: 100%;
+	background-color: black;
+	position: fixed;
+
+}
+.right{
+	width: 85%;
+	height: 100%;
+	background-color: black;
+	/*position: absolute;*/
+	position: relative;
+	/*left: 15%;*/
+	top: 0px;
+	margin-left: 15%;
+}
+
+/*--------------navigation bar---------------*/
+
+.img-portret{
+	width: 100%;
+	height: 100%;
+
+}
+.home{
+	color: white;
+}
+.home:hover{
+	text-decoration: underline;
+	color: white;
+}
+h1{
+				
+	font-size: 35px;
+	color: rgba(237, 205, 45, 0.7);
+	text-align: center;
+	padding-top: 25%;
+}
+
+.left-1{
+	height:20%;
+
+}
+.left-2{
+				
+	height:20%;
+}
+.left-3{	
+	height:20%;
+}
+.left-4{
+	
+	height:20%;
+}
+.left-5{
+				
+	height:20%;
+}
+	/*----------------about------------*/
+a{
+	color: rgba(237, 205, 45, 0.7);
+	/*color: black;*/
+	text-decoration: none;
+}
+ a:hover{
+ 	color: white;
+	text-decoration: underline;
+}
+
+
+/*--------------------HOME--------------------*/
+.home-article{
+
+	height: 1400px; 
+	background-image: url(../img/the-kiss.jpg );
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.home-article > h1{
+	padding-bottom: 250px;
+	color: black;
+	text-shadow: 3px 2px 7px white;
+
+
+}
+.title{
+	font-size: 70px;
+	font-family: 'Chelsea Market', cursive;
+}
+h2{
+	font-size: 45px;
+	font-weight: bold;
+	padding: 50px;
+}
+
+.biografy{
+	width: 70%;
+	line-height: 1.5;
+	padding-left: 100px;
+
+
+}
+.biografy > p{
+
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border: 3px black solid;
+	border-top: none;
+	border-bottom: none;
+	padding: 10px 15px;
+}
+button{
+	
+	width: 80px;
+	height: 50px;
+	border-color: black;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	left: 86%;
+
+}
+button > a{
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+
+}
+
+
+
+/*-----------------------ABOUT---------------------*/
+body{
+		
+		background-color: white;		
+		height: 1600px;
+		width: 100%;
+
+}
+
+.main-about{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+/*--header---*/
+.header{
+	padding: 30px;
+
+	width: 100%;
+
+}
+legend {
+	padding: 10px;
+	font-size: 45px;
+	text-shadow: 5px 4px 10px #515139;
+	font-weight: bold;
+
+}
+q{
+
+	letter-spacing: 1px;
+	line-height: 30px;
+	font-family: 'Quicksand', sans-serif;
+
+
+}
+
+fieldset{
+	padding: 10px;
+	border-color: white;
+	background-color: rgb(234, 226, 201);
+	box-shadow: 5px 4px 10px #515139;
+}
+
+/*---- FIRST article----*/
+
+
+#tables{
+	padding: 20px;
+	margin: 20px auto;
+	color: black;
+	border-color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+table, tr, td{
+	width: 100%;
+	font-size: 20px;
+	align-items: center;
+
+}
+tr, td{
+	width: 160px;
+	align-items: center;
+	/*background-color: #515139;*/
+	font-weight: bold;
+
+
+}
+
+.border .link{
+	color: black;
+	font-weight: normal;
+	
+}
+/*------SECOND article*/
+
+#tables-2{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 50px;
+	
+}
+#tables-2 h1{
+	padding-top: 100px;	
+	color: black;
+
+}
+hr{
+	color: black;
+}
+#tables-2 h3{
+	width: 250px;
+	text-align: center;
+	padding: 5px;
+
+}
+.border{
+	border: 5px solid #514c39;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 5px 4px 10px #515139;
+
+		
+}
+.border td{
+	border-bottom: 3px solid #514c39;
+	border-right: 3px solid grey; 
+	padding: 5px;
+}
+
+.eden{
+	background-color: rgb(250,250,210);
+}
+.dva{
+	background-color: rgb(238,232,170);
+}
+.tri{
+	background-color: rgb(240,230,140);
+}
+.cetiri{
+	background-color: rgb(218,165,32);
+}
+.pet{
+	background-color: rgb(255, 215, 0);
+}
+.shest{
+	background-color: #FFA500;
+}.sedum{
+	background-color: rgb(255, 140, 0);
+}
+.osum{
+	background-color: #CD853F;
+}
+.devet{
+	background-color:#D2691E; 
+}
+.deset{
+	background-color: #8B4513;
+}
+.edinaeset{
+	background-color: #A0522D;
+}
+
+/*---------------FORM-OF ABOUT.html-------------------*/
+
+@keyframes klimt{
+	0%{
+		left: 0%;
+		opacity: 1;
+
+	}
+	100%{
+		left: 91%;
+		opacity: 1;
+
+	}
+}
+@keyframes lady{
+	0%{
+		left: 0px;
+		opacity: 1;
+
+	}
+	100%{
+		left: 91%;
+		opacity: 1;
+
+	}
+}
+@keyframes kiss{
+	0%{
+		left: 0px;
+		opacity: 1;
+
+
+
+	}
+	100%{
+		left: 91%;
+		opacity: 1;
+
+	}
+}
+.forma{
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	width: 100%;	
+	padding-bottom: 25px;	
+
+}
+.forma h3{	
+	padding: 5px;
+	text-align: center;
+	font-size: 35px;
+	padding: 20px;
+
+
+	
+}
+.forma > h5{
+	position: relative;
+	width: 80%;
+	left: 130px;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+	font-size: 35px;
+	font-weight: bold;
+	border-bottom: 3px solid rgb(234, 226, 201);
+
+}
+.input-submit{
+	padding: 5px;
+	background-color: white;
+	border-color: black;
+	color: #af6205;
+}
+.footer{
+	display: flex;
+
+}
+
+.img-footer{
+	position: absolute;
+	animation:  klimt 3s infinite;
+	transition: 4s;
+	animation-timing-function: linear;
+	box-shadow: 5px 4px 10px #515139;
+
+}
+.img-lady{
+	position: absolute;
+	animation: lady 3s infinite;
+	animation-delay: 1s;
+	left: 0px;
+	animation-timing-function: linear;
+	box-shadow: 5px 4px 10px #515139;
+
+	
+
+}
+.kiss{
+	position: absolute;
+	animation: kiss 3s infinite;
+	animation-delay: 2s;
+	left: 0px;
+	animation-timing-function: linear;
+	z-index: -1000px;
+	box-shadow: 5px 4px 10px #515139;
+
+
+}
+/*------------GALLERY-------------------------------*/
+.gallery-article{
+	background-color: #000000;
+	color: rgba(237, 205, 45, 0.7);
+	height: 1800px;
+}
+.gallery-h4{
+	line-height: 20px;
+	width: 80%;
+	padding-left: 230px;
+	font-size: 15px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font: normal;
+}
+.gallery-h5{
+	text-align: center;
+	font-size: 30px;
+	/*padding: 40px auto;*/
+	/*left: 100px;*/
+}
+.gallery-h1{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-size: 50px;
+}
+.list-flex{
+	padding-left: 36%;
+
+}
+
+.list-left{
+	font-size: 30px;
+	
+}
+.list-right{
+	font-size: 30px;	
+
+}
+.view{
+	float: left;
+	border: 2px solid rgba(237, 205, 45, 0.7);
+	border-width: 50px;
+	text-align: center;
+	font-size: 45px;
+	padding: 10px;
+	/*padding-bottom: 100px;*/
+	
+}
+
+
+/*--------------------------CONTACT---------------------*/
+
+.contact-float{
+	/*width: 1147px;*/
+	width: 100%;
+	height: 100%;
+	/*height: 1300px;*/
+	background-color: black; 
+	position: absolute;
+	padding: 0px;
+
+}
+.float-left{
+	width: 50%;
+	height: 100%;
+	/*background-color: white;*/
+	float: left;
+	position: relative;
+}
+.float-right{
+	width: 50%;
+	height: 100%;
+	/*background-color: black;*/
+	float: left;
+	position: relative;	
+}
+.float-footer{
+	height: 30%;
+	width: 100%;
+	position: relative;
+	/*height: 120px;*/
+	background-color: black;
+	float: left
+}
+/*------FORM EMAIL-----*/
+.background{
+	width: 400px;
+	height: 850px;
+	background-color: rgba(237, 205, 45, 0.7);
+	float: left;
+	position: relative;
+	left: 90px;
+	top: 40px;
+}
+
+.form-square{
+	width: 80%;
+	height: 80%;
+	position: relative;
+	left: 40px;
+	top: 10px;
+	padding: 40px;
+	font-size: 30px;
+
+}
+.form-square h4{
+	font-size: 50px;
+
+}
+.placeholder{
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	width: 250px;
+	height: 40px;
+	padding: 0px 15px;
+	
+}
+.form-submit{
+
+	border: black;
+	background-color: black;
+	padding: 5px;
+	box-shadow: 2px 3px 10px black;
+
+}
+input{
+	color: rgba(237, 205, 45, 0.7);
+
+}
+.form-pass{
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	padding: 5px 15px;
+	color: black;
+}
+
+/*----------FORMA BIRTHDAY-------- */
+
+
+.form-birthday input{
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	color: black;
+	padding: 5px;
+	margin: 5px;
+
+	
+}
+.form-birthday h6{
+	font-size: 28px;
+	text-align: center;
+}
+/*-------FORM RADIO-------*/
+.form-radio{
+	position: relative;
+	text-align: center;
+}
+.form-radio h6{
+	font-size: 28px;
+
+}
+.form-radio input{
+/*margin: 5px;*/
+	border-radius: 50%;
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	color: black;
+	width: 60px;
+	/*box-shadow: 2px 3px 10px black;*/
+
+}
+.reset{
+	box-shadow: 2px 3px 10px black;
+}
+
+/*---------FORM SELECT------*/
+select{
+
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	width: 250px;
+	height: 40px;
+	padding: 0px 15px;
+
+	
+}
+.form-select h6{
+	font-size: 28px;
+	text-align: center;
+	
+}
+/*--------------------FLOAT RIGT----------------------*/
+
+
+.right-text{
+	font-size: 28px;
+	text-align: center;
+	padding: 5px 15px;
+	position: relative;
+	top: 50px;
+}
+iframe{
+	
+	float: left;
+	position: relative;
+	left: 21px;
+	top: 50px;
+	border: 5px black solid;
+
+}
+.comment{
+
+	position: absolute;
+	top: 500px;
+	text-align: center;
+	font-size: 28px;
+	left: 90px;
+
+}
+textarea{
+	position: relative;
+	float: left;
+	top: 180px;
+	left: 90px;
+
+}
+.feedback{
+	position: relative;
+	float: left;
+	top: 360px;
+	right: 85px;
+	background-color: rgba(237, 205, 45, 0.7);
+	border-color: black;
+	color: black;
+	padding: 5px;
+	margin: 5px;
+	box-shadow: 2px 3px 10px black;
+}
+/*----------------------FLOAT FOOTER------------*/
+
+.address{
+	font-size: 28px;
+	left: 70px;
+	font-family: 'Quicksand', sans-serif;
+	color:  rgba(237, 205, 45, 0.7);
+	top: 20px;
+	position: absolute;
+	border-bottom: 3px solid rgba(237, 205, 45, 0.7);
+	padding-bottom: 25px;
+	/*padding-top: 130px;*/
+
+
+}
+.maps{
+	width: 37%;
+	position: relative;
+	float:left;
+	left: 600px;
+	top: 10px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	border: 3px solid rgba(237, 205, 45, 0.7);
+
+}
+.address-background{
+
+	width: 400px;
+	background-color: rgba(237, 205, 45, 0.7);
+	float: left;
+	position: relative;
+	left: 90px;
+}
+/*-----------------media----------------------*/
+
+
+/*----------media for home-------------------*/
+@media  screen and (max-width: 700px){
+	.home-article{
+		background-image: url(../img/the-kiss.jpg);
+		/*height: 1200px;*/
+		width: 100%;
+		height: 80%;
+		background-size: cover;
+	 }
+	 .home-article > h1{
+	 	padding-top: 200px;
+	 	padding-bottom: 0px;}
+	.title{
+		font-size: 20px;
+
+	}
+	h2{ font-size: 20px;}
+	.biografy{
+	width: 100%;
+	line-height: 1.5;
+	padding-left: 0px;
+
+
+	}
+	button{
+	height: 0px;
+	width: 60px;
+	left: 10px;
+	border-color: black;
+	background-color: rgba(255, 255, 255, 0.5);
+	position: relative;
+	}
+	button > a{
+	color: black;
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+
+	}
+
+
+	.main-container{
+		width: 100%;	
+		margin: 0 auto;
+	}
+
+	.left{
+		width: 100%;
+		height: 100px;
+		position: fixed!important;
+	
+	}
+	.left-1{
+		width: 60px;
+		float: left;
+		padding: 15px;
+		
+
+	}
+	.left-2{
+		width: 60px;
+		float: left;
+		padding: 15px;
+
+	
+	}
+	.left-3{
+		float: left;
+		width: 60px;
+		padding: 15px;
+	}
+	.left-4{
+		float: left;
+		width: 60px;
+		padding: 15px;
+		
+	}
+	.left-5{
+		float: left;
+		width: 60px;
+		padding: 15px;
+	}
+	.right{
+		width: 100%;
+		left: 0px!important;
+		position: absolute;
+		margin: 100px 0px 0px 0px!important;
+
+	}
+
+	.img-portret{
+		width: 60px;
+		height: 50px;
+		padding-right: 15px;
+
+	}
+	.home{
+		color: white;
+	}
+	.home:hover{
+		text-decoration: underline;
+		color: white;
+
+	}
+	h1{
+		
+		font-size: 20px;
+		color: rgba(237, 205, 45, 0.7);
+		text-align: center;
+		padding-top: 25%;
+	}
+	.gallery-article{
+		height: 1200px;
+	}
+	.gallery-h1{
+		padding: 20px;
+	}
+	
+	.forma > h5{
+		font-size: 20px;
+		left: 5px;
+		display: inline-grid;
+	}
+	.gallery-h4{
+		width: 100%;
+		padding-left: 0px;
+		padding: 10px;
+	}
+	.gallery-h5{
+		border-bottom: none;
+		left: 30px;
+
+	}
+	.list-flex{
+		padding-left: 30px;
+	}
+	.list-left{
+		font-size: 15px;
+	}
+	.view{
+		width: 100px;
+		border-width: 3px;
+		font-size: 10px;
+
+	}
+	.contact-float{
+		background-color: black;
+	
+	}
+	.float-left{
+		width: 100%;
+		height: 55%;
+		left: 0px;
+		position: relative;
+
+	}
+	.float-right{
+		width: 100%;
+		height: 50%;
+		left: 0px;
+		padding: 0px;
+		background-color: black;
+		position: relative;
+
+	}
+	.background{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		left: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+
+	}
+	.form-birthday h6{
+		
+	}
+	.form-select h6{
+		font-size: 20px;
+	}
+	.form-square{
+		position: relative;
+		left: 6px;/
+		text-align: center;
+	}
+	.form-square h4{
+		text-align: center;
+	}
+	.placeholder{
+		width: 100%;
+		left: 0px;
+
+	}
+	.right-text{
+		font-size: 20px;
+		position: relative;
+		/*right: 20px;*/
+
+	}
+	iframe{
+		width: 80%;
+		left: 10%;
+	}
+	.comment{
+		padding-left: 25%;
+		left: 0px;
+		font-size: 20px;
+	}
+	textarea{
+		float: none;
+		left: 5%;
+		position: relative;
+		width: 90%;
+	}
+	.feedback{
+		right: 0;
+		top: 200px;
+		left: 28%;
+		
+	}
+	select{
+		width: 100%;
+		height: 30%;
+	}
+
+	.float-footer{
+		width: 100%;
+		height: 40%;
+		left: 0px;
+		position: relative;
+
+	}
+	.address{
+		width: 100%;
+		left: 10px;	
+	}
+	.maps{
+	
+		left: 0px;
+		width: 80%;
+		height: 30%;
+		top: 30%;
+
+	}
+
+
+	/*------------about------------*/
+	table, tr, td{
+		display: table;
+		flex-wrap: wrap;
+	}
+	td{
+		width: 200px;
+	}
+}	
